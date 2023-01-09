@@ -24,6 +24,7 @@ public class Bird : MonoBehaviour
     public void ResetPlayer()
     {
         _score = 0;
+        ScoreChanged?.Invoke(_score);
         _mover.ResetBird();
     }
 
