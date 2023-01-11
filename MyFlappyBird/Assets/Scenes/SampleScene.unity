@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 548995976}
   - component: {fileID: 548995975}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 1771090574}
-  _capacity: 3
+  _capacity: 5
   _template: {fileID: 4751795193831945071, guid: 7d1325baa746a4f4f81e18c873d3a7cb, type: 3}
   _secondsBetweenSpawn: 2
   _maxSpawnPositionY: 2
